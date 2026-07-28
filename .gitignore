@@ -1,0 +1,11 @@
+node_modules/
+.next/
+.env
+.env*.local
+.claude/
+audit-*.md
+audit-*.pdf
+audit-prompt-*.txt
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat

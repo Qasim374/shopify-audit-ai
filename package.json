@@ -1,0 +1,27 @@
+{
+  "name": "shopify-store-audit-ai",
+  "version": "0.1.0",
+  "description": "Audit a Shopify store from its public URL and generate a client-friendly report (Markdown + PDF) using AI.",
+  "type": "module",
+  "bin": {
+    "shopify-audit": "index.js"
+  },
+  "scripts": {
+    "audit": "node index.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "cheerio": "^1.0.0",
+    "marked": "^12.0.0",
+    "next": "^14.2.5",
+    "pdfkit": "^0.15.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
